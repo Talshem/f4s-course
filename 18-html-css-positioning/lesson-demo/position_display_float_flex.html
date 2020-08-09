@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hello{
+            border: 1px solid black;
+            /* bottom: 50px;
+            right: 50px; */
+            /* position: relative; */
+            /* top: -50px; */
+            /* left: -50px; */
+            /* position: absolute;
+            top: 0; */
+        }
+        body{ margin: 0}    
+        /* #container{
+            position: relative;
+        }
+        #child{
+            position: absolute;
+            top: 10px;
+        } */
+        /* #child{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: aqua;
+        } */
+        /* #child{
+            position: sticky;
+            width: 100%;
+            top: 30px;
+            background-color: aqua;
+        }
+        #hello{
+            position: relative;
+            top: 10px;
+        } */
+        /* .hello{
+            border: 1px solid black;
+            display: block;
+            width: 100px;
+        }
+        .bye{
+            border: 1px solid black;
+            display: inline-block;
+            width: 100px;
+        } */
+
+         /* .float{
+            border: 1px solid black;
+            width: 100px;
+            float: left;
+        } */
+        .flexcontainer{
+            background-color: aqua;
+            display: flex;
+            height: 600px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            /* align-content: space-around; */
+
+        }
+        .flexchild{
+            border: 1px solid black;
+             width: 200px;
+            /* flex-basis: 200px; */
+            background-color: rebeccapurple;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexcontainer">
+        <!-- (500 / 4) * 1 -->
+        <div class="flexchild" style="align-self: flex-start; order: 2; flex-grow: 1;">1</div>
+        <!-- (500 / 4) * 1 -->
+        <div class="flexchild" style="order: 3;">2</div>
+        <!-- (500 / 4) * 2 -->
+        <div class="flexchild"  style="order: 1;">33333333333333</div>
+        <!-- <div class="flexchild">444444444444</div>
+        <div class="flexchild">555555555555</div>
+        <div class="flexchild">6666666666666666</div>
+        <div class="flexchild">77777777777777</div> -->
+       
+    </div>
+
+    <!-- <div>
+        <span style="display: block; width: 100px; margin: auto; text-align: center;">center</span>
+        <span style="display: block; width: 500px; text-align: center;">center</span>
+    </div> -->
+    <!-- <table style="width:100%; border: 1px solid black;">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table> -->
+    <!-- <div class="float">Hello</div>
+    <div style="clear: both;"></div>
+    <div >Hello</div>
+    <div >Hello</div>
+    <p>  
+        <img style="float: right;" src="https://www.w3schools.com/css/pineapple.jpg" >
+        text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt
+        text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt 
+         text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt 
+         text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt  text txt 
+
+    </p>
+    <div style="clear: both;"></div> -->
+    <!-- <div class="float" style="float: right;">Hello</div> -->
+
+
+
+    <!-- <div class="hello">Hello</div>
+    <div class="hello">Hello</div>
+    <div class="hello">Hello</div>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <span class="bye">Bye</span>
+    <div>texty text texty text <span style="color: red;">texty text</span> texty text texty text texty text texty text </div>
+     -->
+    <!-- <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div id="hello">Hello World!</div>
+    <div id="container">
+
+    </div>
+    <div id="child">
+        child
+    </div> -->
+    <!-- <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div>
+    <div>Hello World!</div> -->
+
+</body>
+</html>
