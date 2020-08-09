@@ -48,7 +48,7 @@ cd flex-box-task
 
 npm install
 
-run test - jest
+run run test
 
 
 ## Bonus
