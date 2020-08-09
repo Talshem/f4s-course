@@ -48,8 +48,6 @@ cd flex-box-task
 
 npm install
 
-cd flex-box-task
-
 run test - jest
 
 
